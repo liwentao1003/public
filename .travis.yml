@@ -5,6 +5,6 @@ osx_image: xcode11.3
 xcode_workspace: TestPrj.xcworkspace
 
 before_install:
-  - brew update
+#  - brew update
   - 
 
