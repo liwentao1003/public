@@ -1,0 +1,30 @@
+{
+    "name": "public",
+    "version": "1.0.0",
+    "description": "1",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liwentao1003/public.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/liwentao1003/public/issues"
+    },
+    "homepage": "https://github.com/liwentao1003/public#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-angular": "^11.0.0",
+        "husky": "^4.3.6"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
+    }
+}
